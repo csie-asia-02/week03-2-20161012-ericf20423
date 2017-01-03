@@ -4,7 +4,7 @@ public class hw03_104021125 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("輸入年分: ");
+		System.out.print("year: ");
 		Scanner scn = new Scanner(System.in);
 		int year = scn.nextInt();
 		boolean flag = false;
@@ -18,9 +18,9 @@ public class hw03_104021125 {
 		}
 		
 		if(flag)
-			System.out.println("閏年");
+			System.out.println("leap year");
 		else
-			System.out.println("非閏年");
+			System.out.println("not leap year");
 
 	}
 

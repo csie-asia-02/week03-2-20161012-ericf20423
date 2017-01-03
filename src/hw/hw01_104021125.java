@@ -4,7 +4,7 @@ public class hw01_104021125 {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-		System.out.print("通話時間:");
+		System.out.print("talk time:");
 		int min = scn.nextInt();
 		double m = 0;
 		if(min<600)
@@ -13,7 +13,7 @@ public class hw01_104021125 {
 			m = (min*0.5)*0.9;
 		else if(min>1200)
 			m = (min*0.5)*0.79;
-		System.out.print("費用:"+m);
+		System.out.print("cost:"+m);
 
 	}
 

@@ -4,7 +4,7 @@ public class hw04_104021125 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("輸入一整數n:");
+		System.out.print("Integer n:");
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
 		int sum =0;

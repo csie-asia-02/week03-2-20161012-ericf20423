@@ -1,20 +1,20 @@
 package hw;
 import java.util.Scanner;
-public class hw02_1040210XX {
+public class hw02_104021125 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("è«‹è¼¸å…¥æ€§åˆ¥:");
+		System.out.print("©Ê§O:");
 		Scanner scn = new Scanner(System.in);
 		char c = scn.nextLine().charAt(0);
-		System.out.print("è«‹è¼¸å…¥èº«é«˜:");
+		System.out.print("¨­°ª:");
 		int i = scn.nextInt();
 		double w;
-		if(c=='ç”·')
+		if(c=='¨k')
 			w = (i-80)*0.7;
 		else
 			w = (i-70)*0.6;
-		System.out.print("æ¨™æº–é«”é‡:"+w);
+		System.out.print("²z·QÅé­«:"+w);
 
 	}
 
